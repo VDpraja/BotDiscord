@@ -54,7 +54,7 @@ This is a Discord bot that monitors a specified YouTube channel and sends a noti
 
 1. Set the YouTube channel to monitor and the Discord channel for notifications:
     ```
-    /setchannel UC1Fm0bKh4MiiRmMfe3qeggw #general
+    /setchannel <ID_CHANNEL> #general
     ```
 2. List the current YouTube channel being monitored:
     ```
