@@ -76,7 +76,7 @@ async def setchannel(interaction: discord.Interaction, channel_id: str, notify_c
     embed = discord.Embed(
         title="✅ Channel Set ✅",
         description=f"The YouTube channel to monitor: {channel_id}\nNotifications will be sent to: {notify_channel.mention}",
-        color=discord.Color.green()
+        color=discord.Color.blue()
     )
     await interaction.response.send_message(embed=embed)
 
